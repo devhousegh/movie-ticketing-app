@@ -6,7 +6,7 @@ import SignUp from './pages/authentication/SignUp'
 
 function App() {
   return (
-    <main>
+    <main className='bg-red-500 w-screen h-screen'>
       <Routes>
         <Route path='/' element={<Homepage/>}/>
         <Route path='sign-in' element={<SignIn/>}/>
