@@ -3,19 +3,23 @@ import Slideshow from '../../components/reusables/Slideshow'
 
 const SignUp = () => {
   return (
-    <main className='flex items-center h-screen'>
+    <main className='w-screen h-screen relative'>
       {/* Slideshow */}
-        <section className='w-[50%]'>
+        <section className='w-full h-full'>
           <Slideshow>
-            <div className="z-[20] absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-white p-5">
-              <p>Sign Up to access</p>
-            </div>
+              <div className="w-full h-full z-[20] absolute top-0 left-0 text-white p-5 flex">
+                {/* Text */}
+                <section className='w-[50%]'>
+                  <p>Sign Up to access</p>
+                </section>
+                {/* Form */}
+                <section className='p-5 h-full w-[50%]'>
+                  <h1>Form</h1>
+                </section>
+              </div>
           </Slideshow>
         </section>
-        {/* Form */}
-        <section className='w-[50%] p-5 h-full'>
-            <h1>Form</h1>
-        </section>
+        
     </main>
   )
 }
