@@ -23,7 +23,7 @@ function Slideshow({children}) {
           clickable: true,
         }}
         autoplay={{
-            delay: 5000,
+            delay: 8000,
             disableOnInteraction: false,
         }}
         modules={[Autoplay,EffectFade]}
@@ -35,11 +35,10 @@ function Slideshow({children}) {
 
                            <img src={`https://image.tmdb.org/t/p/original${movie.backdrop_path}`} 
                             alt={movie.original_title}
-                            className='w-full h-full'/>
+                            className='w-full h-screen'/>
 
-                            <div className="absolute z-[10] top-0 left-0 bg-black w-full h-full opacity-70"/>
+                            <div className="absolute z-[10] top-0 left-0 bg-black w-full h-full opacity-60"/>
                                 {children}
-                            
                         </SwiperSlide>
                     )
                 })}
