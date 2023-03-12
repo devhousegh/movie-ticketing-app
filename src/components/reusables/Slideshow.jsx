@@ -37,7 +37,7 @@ function Slideshow({children}) {
                             alt={movie.original_title}
                             className='w-full h-screen object-cover'/>
 
-                            <div className="absolute z-[10] top-0 left-0 bg-black w-full h-full opacity-60"/>
+                            <div className="absolute z-[10] top-0 left-0 bg-black w-full h-full opacity-70"/>
                                 {children}
                         </SwiperSlide>
                     )
