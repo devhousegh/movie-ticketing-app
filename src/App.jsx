@@ -10,10 +10,10 @@ function App() {
   //Global State
   const [movies,setMovies] = useState([])
 
-     const headers={
+  const headers={
          'Authorization':
          'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5NzU3YTdjMDNiN2Q2YzJiYmI4OWMyYzljODZiMjcwZSIsInN1YiI6IjY0MGUyNTFhZWRlMWIwMDBkOTc1NDE5OSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.gizTyQELHGPKTtCxdceD-yoWMF_RUQVcFrqjYcrYa1k'
-     }
+  }
 
   useEffect(()=>{
     async function fetchDB(){
