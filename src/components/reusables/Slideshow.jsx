@@ -35,7 +35,7 @@ function Slideshow({children}) {
 
                            <img src={`https://image.tmdb.org/t/p/original${movie.backdrop_path}`} 
                             alt={movie.original_title}
-                            className='w-full h-screen'/>
+                            className='w-full h-screen object-cover'/>
 
                             <div className="absolute z-[10] top-0 left-0 bg-black w-full h-full opacity-60"/>
                                 {children}
