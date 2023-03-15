@@ -30,8 +30,8 @@ function App() {
         <main>
           <Routes>
             <Route path='/' element={<Homepage/>}/>
-            <Route path='sign-in' element={<SignIn/>}/>
-            <Route path='sign-up' element={<SignUp/>}/>
+            <Route path='Sign-in' element={<SignIn/>}/>
+            <Route path='Sign-up' element={<SignUp/>}/>
           </Routes>
         </main>
       </AppContext.Provider>
