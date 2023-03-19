@@ -6,13 +6,13 @@ const HomepageItems = () => {
     {
       id: 0,
       name: "Log in",
-      url: "/SignIn",
+      url: "/Sign-In",
       class:" py-2 px-10 border-2 border-solid border-grey-300 text-gray-300 font-semibold rounded-md"
     },
     {
       id: 1,
       name: "Sign up",
-      url: "/SignUp",
+      url: "/Sign-Up",
       class:" py-2 px-10 bg-gray-300 text-slate-800 font-semibold rounded-md "
     },
   ];
